@@ -1,0 +1,351 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: "Epilogue", sans-serif;
+
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    background: #22092C;
+}
+
+.logo {
+    margin: 0 20px;
+}
+
+.pesquisa {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-self: center;
+}
+
+input {
+    border-radius: 50px;
+    width: 50rem;
+    height: 2.5rem;
+    margin: 5px;
+    border: none;
+    
+}
+
+input::placeholder {
+    color: rgb(184, 184, 184);
+    font-size: 12px;
+    padding: 0 10px;
+}
+
+.botao_pesquisar {
+    width: 90px;
+    height: 30px;
+    background: #ef6d58;
+    justify-content: center;
+    text-align:center ;
+    border-radius: 15px;
+    border: none;
+    margin: 0 10px;
+}
+
+.filtro {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: #22092C;
+    background-color: #BE3144;
+    height: 2rem;
+    font-size:12px
+}
+
+/* ------------------------  SEÇÃO 1 ------------------------ */
+
+.conteudo-section-1 {
+    height: 550px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 30px;
+    background: #22092c;
+
+}
+
+.categoria {
+    color: #ef6d58
+}
+
+.titulo-banner {
+    display: flex;
+    color: white;
+    font-size: 60px;
+}
+
+.subtitulo-banner {
+    color: white;
+    font-family: normal;
+    font-size: 20px;
+}
+
+
+/* ------------------------  SEÇÃO 2 ------------------------ */
+
+.conteudo-section-2 {
+    display: flex;
+    flex-direction: column;
+    background: #872341;
+    padding: 30px;
+}
+
+.text-section {
+    margin: 70px 100px;
+    color: white;
+}
+
+.banner-artistas-galery {
+    width: 1080px;
+    align-self: center;
+}
+
+/* ------------------------  SEÇÃO 3 ------------------------ */
+
+.conteudo-section-3 {
+    display: flex;
+    height: 650px;
+    flex-direction: row;
+    justify-content: center;
+    background: #22092c;
+    padding: 30px;
+    color: white;
+
+}
+
+.text-section-faq {
+    margin: 70px 100px;
+    color: white;
+    width: 45%;
+}
+
+.faq-accordion {
+    margin: 70px 100px;
+    color: white;
+    width: 45%;
+}
+
+/* ------------------------  SEÇÃO 4 ------------------------ */
+
+.conteudo-section-4 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+    background: white;
+    height: 650px;
+}
+
+.section-formulario {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 40px;
+    width: 45%;
+    margin: 10px;
+    height: 400px;
+    border: 1px solid #22092C;
+    border-radius: 30px;
+}
+
+.section-contato {
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+    background: white;
+    margin: 70px;
+}
+
+.titulo-contato {
+    color: #22092C;
+    display: flex;
+    
+    font-size: 40px;
+}
+
+.conteudosection1-img {
+    max-width: 600px;
+}
+
+.div-img {
+    display: flex;
+    justify-content: center;
+}
+
+.div-menu2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 100px;
+}
+
+.div-conteudo1 {
+    display: flex;
+    flex-direction: column;
+    margin: 30px;
+}
+
+
+
+.conteudo-section-depo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: white;
+    color: black;
+    /*Cor arrumar depois*/
+    padding: 30px;
+    margin: 15px;
+}
+
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.input-section1 {
+    background: #ef6d58;
+    border-radius: 15px;
+    margin: 0px 140px;
+
+    justify-content: center;
+}
+
+.conteudo-section-faq1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+
+}
+
+.conteudo-section-faq2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+
+}
+
+.conteudo-section-depo1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    justify-content: center;
+    color: #872341;
+}
+
+.section-feedback-text {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    flex-direction: column;
+    justify-content: center;
+    display: flex;
+
+
+
+}
+
+.section-feedback-text2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    color: rgb(0, 0, 0);
+}
+
+h6 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+.section-feedback-text3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+.section-feedback-text4 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+.section-feedback-text5 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+.section-feedback-text6 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+
+
+.sectiondiv-feedback {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 600px;
+    height: 600px;
+    background: white;
+    border-radius: 15px;
+    color: black;
+    gap: 60px;
+
+}
+
+.conteudo-art {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 400px;
+    height: 400px;
+
+}
+
+
+
+.a {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+.inpt-email {
+    margin: 10px;
+    width: 300px;
+    height: 40px;
+    border-radius: 10px;
+}
+
+.input-assunto {
+    margin: 10px;
+    width: 300px;
+    height: 40px;
+    border-radius: 10px;
+}
+
+.input-textarea {
+    justify-content: center;
+    width: 300px;
+    display: flex;
+}
+
+.input-artista {
+    display: flex;
+    justify-content: center;
+    width: 100px;
+    height: 50px;
+    border-radius: 15px;
+    font-family: "Francois One", sans-serif;
+    font-size: 20px;
+    background-color: #00ffff;
+    position: relative;
+    top: 300px;
+    left: 110px;
+
+}
